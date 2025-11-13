@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _02_CacaAoBugMVC.Model
 {
-    class ValidaServece
+    public class ValidaService //Lembrar de renomear
     {
         // padrão:
         // - mínimo de 3 caracteres
@@ -53,7 +53,7 @@ namespace _02_CacaAoBugMVC.Model
                     return true;
             }
 
-            return false; // corrigido: se não conseguiu converter, retorna false
+            return false; 
         }
     }
 }
